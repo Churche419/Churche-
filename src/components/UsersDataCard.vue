@@ -6,8 +6,10 @@
     <p>{{user.username}}</p>
    
     <button class="btn btn-primary" @click="$emit('view-user', user)">Get User</button>
+
   </div>
 </div>
+<button class ="btn btn-primary">Add User</button>
 </template>
 
 <script>
